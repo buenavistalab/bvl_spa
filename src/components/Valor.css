@@ -1,0 +1,166 @@
+.Valor {
+  background: var(--light-blue);
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+.Valor > .container {
+  padding: 0 70px;
+}
+.Valor .red-line {
+  position: relative;
+  left: 20px;
+  bottom: -35px;
+}
+.valor-wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.valor-blue-box {
+  background: var(--blue);
+  width: 100%;
+  height: auto;
+  padding: 60px 20px;
+  margin: 30px 0 0;
+  position: relative;
+  left: 20px;
+}
+.up-title {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Nova Bold";
+  text-align: center;
+}
+.up-preco {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Nova Bold";
+  padding: 20px 0;
+  text-align: center;
+}
+.up-preco.em-ate {
+  font-family: "Decima Nova Regular";
+}
+.up-preco .valor-riscado {
+  text-decoration: line-through;
+}
+.up-preco .valor-destaque {
+  font-size: 32px;
+}
+.up-preco-12 {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  padding: 0 0 30px;
+  text-align: center;
+}
+.down-title {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Nova Regular";
+  text-align: center;
+  padding: 30px 0 0;
+}
+.down-subtitle {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 10px 30px 0;
+}
+.investimento-wrapper h2 {
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 0 0 30px;
+}
+.investimento-title {
+  font-size: 14px;
+  color: var(--gray);
+  font-family: "Open Sans";
+  padding: 0 0 50px;
+  line-height: 24px;
+}
+.investimento-btn {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 14px 40px;
+  background: var(--red);
+  margin: 30px 0;
+  transition-property: background;
+  transition-duration: 1s;
+}
+.investimento-btn:hover {
+  background: var(--blue);
+  color: var(--light-blue);
+  transition: 1s;
+}
+.investimento-subtitle {
+  font-size: 14px;
+  color: #000;
+  font-family: "Decima Mono";
+  padding: 50px 0 0;
+  font-weight: bolder;
+}
+.investimento-wrapper {
+  background: #fff;
+  padding: 60px;
+  width: 100%;
+  height: auto;
+}
+.valor-blue-box-wrapper {
+  width: 100%;
+}
+.vertical-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .valor-wrapper {
+    flex-flow: column;
+  }
+  .valor-blue-box {
+    background: var(--blue);
+    width: 100%;
+    height: auto;
+    padding: 60px 20px;
+    margin: 30px 0 0;
+    position: relative;
+    left: 0;
+  }
+  .investimento-wrapper {
+    padding: 20px;
+  }
+  .Valor .container {
+    padding: 20px 0;
+  }
+  .Valor .red-line {
+    position: relative;
+    left: 0;
+    bottom: -35px;
+  }
+}
+@media (max-width: 568px) {
+  .valor-blue-box {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .Valor .red-line {
+    display: none;
+  }
+  .investimento-wrapper {
+    text-align: center;
+  }
+  .investimento-btn {
+    padding: 18px 46px;
+  }
+  .Valor {
+    background: #fff;
+  }
+}

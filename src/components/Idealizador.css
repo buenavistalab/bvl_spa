@@ -1,0 +1,138 @@
+.Idealizador {
+  background: var(--blue);
+  padding: 50px 0;
+}
+.idealizador-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.idealizador-item {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+}
+.ide-photo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.ide-photo .red-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.ide-text {
+  width: 100%;
+  height: auto;
+  padding: 0 110px;
+}
+.ide-text h2 {
+  font-size: 32px;
+  color: #fff;
+  font-family: "Decima Mono Bold";
+}
+.ide-text .red-line {
+  position: relative;
+  bottom: -80px;
+}
+.autor-livro {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Open Sans";
+  padding: 20px 0;
+  line-height: 24px;
+}
+.autor-palestra {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Decima Mono";
+}
+.lugares-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 20px 0 0;
+}
+.lugares-row img {
+  width: auto;
+  height: 50px;
+}
+.csweek {
+  padding-left: 10px;
+}
+.hiram-photo {
+  width: auto;
+  height: 350px;
+}
+.ide-livro {
+  width: 100%;
+  height: auto;
+}
+.ide-livro img {
+  width: auto;
+  height: 400px;
+}
+.idealizador-item-reverse {
+  padding: 100px 0 0;
+}
+@media (max-width: 1000px) {
+  .ide-text {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 768px) {
+  .idealizador-item {
+    flex-flow: column;
+    padding: 0 0 150px;
+  }
+  .idealizador-item-reverse {
+    flex-flow: column-reverse;
+  }
+  .ide-livro img {
+    width: 100%;
+    height: auto;
+  }
+  .ide-photo {
+    align-items: center;
+  }
+  .hiram-photo {
+    width: 100%;
+    height: auto;
+  }
+  .ide-photo {
+    padding: 0 0;
+  }
+  .ide-text {
+    padding: 0 0;
+  }
+  .ide-text h2 {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .lugares-row img {
+    width: auto;
+    height: 40px;
+  }
+  .lugares-row {
+    row-gap: 20px;
+    column-gap: 0;
+    width: 320px;
+  }
+  .idealizador-item {
+    padding: 0 0 100px;
+  }
+  .idealizador-item-reverse {
+    padding: 0 0 70px;
+  }
+}

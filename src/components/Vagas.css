@@ -1,0 +1,123 @@
+.Vagas {
+  padding: 50px 0 0;
+  width: 100%;
+  height: auto;
+}
+.vagas-card-wrapper .blue-line {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.vagas-wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+}
+.vagas-wrapper.container {
+  padding: 0 70px;
+}
+.vagas-card-wrapper {
+  width: 100%;
+  height: auto;
+}
+.vagas-card {
+  background: #fff;
+  -webkit-box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
+  -moz-box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
+  box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
+  width: 100%;
+  height: auto;
+  padding: 60px 60px;
+}
+.vagas-card-title {
+  font-size: 16px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: bolder;
+  padding: 0 0 10px;
+}
+.vagas-card-subtitle {
+  font-size: 12px;
+  color: var(--blue);
+  font-family: "Open Sans";
+  font-weight: bolder;
+  padding: 0 0 10px;
+  line-height: 20px;
+}
+.vagas-card-about {
+  font-size: 12px;
+  color: var(--gray);
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding: 0 0 10px;
+  line-height: 20px;
+}
+.vagas-card-about.catho {
+  font-style: italic;
+  color: #000;
+}
+.vagas-text-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: left;
+  width: 100%;
+  height: auto;
+  padding: 0 80px;
+}
+.vagas-text-wrapper h2 {
+  font-size: 32px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 30px 0 0;
+}
+.vagas-salarios {
+  font-size: 32px;
+  color: #000;
+  font-family: "Decima Mono Bold";
+}
+.vagas-fontes {
+  font-size: 18px;
+  color: #000;
+  font-family: "Decima Mono Bold Italic";
+  padding: 10px 0 0;
+}
+.btn-vagas {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Open Sans";
+  padding: 10px 20px;
+  background: var(--red);
+  margin: 10px 0;
+  cursor: initial;
+  border-radius: 3px;
+}
+@media (max-width: 992px) {
+  .Vagas {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 768px) {
+  .vagas-wrapper {
+    flex-flow: column;
+  }
+  .vagas-card {
+    margin: 0 0 50px;
+  }
+  .vagas-text-wrapper {
+    padding: 0 0 50px;
+    margin-top: 50px;
+  }
+  .vagas-card-wrapper .blue-line {
+    position: relative;
+    top: -50px;
+  }
+  .vagas-wrapper.container {
+    padding: 0 20px;
+  }
+}

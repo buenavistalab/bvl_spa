@@ -1,0 +1,208 @@
+.Carousel {
+  background: var(--light-blue);
+  padding: 50px 0;
+}
+.Carousel .texts h2 {
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 0 0 10px;
+}
+.Carousel .texts .texts-title {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  padding: 10px 0 20px;
+  font-weight: bolder;
+}
+.Carousel .texts .texts-subtitle {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  line-height: 24px;
+}
+.container-carousel {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 20px 70px 0;
+}
+.container-box {
+  background: #fff;
+  cursor: pointer;
+  padding: 60px 30px 0;
+  width: auto;
+  height: 340px;
+}
+.container-box svg {
+  width: auto;
+  height: 50px;
+}
+.container-box.svg-bau svg {
+  width: 60px;
+}
+.slick-slide {
+  padding: 5px;
+}
+.slick-current .slider-title {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding: 10px 80px 20px 0;
+  line-height: 24px;
+}
+.slider-title {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding: 10px 100px 20px 0;
+  line-height: 24px;
+}
+.slick-current .slider-subtitle {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 10px 100px 0 0;
+  line-height: 20px;
+}
+.slider-subtitle {
+  font-size: 12px;
+  color: #000;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 10px 100px 0 0;
+  line-height: 20px;
+}
+.slick-track {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.car-texts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: row;
+}
+.car-texts-wrapper.container {
+  padding: 0 70px 20px;
+}
+.texts {
+  width: 100%;
+  height: auto;
+}
+.lines {
+  width: 100%;
+  height: auto;
+}
+.lines img:first-child {
+  margin: 0 250px 50px 0;
+}
+.lines img:nth-child(2) {
+  margin-right: 20px;
+}
+.car-texts-wrapper .lines {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: column;
+}
+.slick-current .container-box {
+  background: var(--blue);
+}
+.container-box .cls-1{
+  fill: none;
+  stroke: var(--red);
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.slick-current .container-box .cls-1{
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.slick-prev {
+  left: -5% !important;
+  z-index: 9 !important;
+  background-image: url('../assets/vetores/arrow-left.png') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  width: 30px !important;
+  height: 100% !important;
+}
+.slick-prev::before {
+  content: '' !important;
+}
+.slick-next {
+  right: -5% !important;
+  z-index: 9 !important;
+  background-image: url('../assets/vetores/arrow-right.png') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  width: 30px !important;
+  height: 100% !important;
+}
+.slick-next::before {
+  content: '' !important;
+}
+@media (max-width: 768px) {
+  .lines {
+    padding: 20px 0;
+  }
+  .slick-slide {
+    padding: 0;
+  }
+  .slick-prev {
+    left: 5px !important;
+  }
+  .slick-next {
+    right: 5px !important;
+  }
+}
+@media (max-width: 576px) {
+  .car-texts-wrapper {
+    flex-flow: column;
+  }
+  .lines img:first-child {
+    margin: 0 200px 50px 0;
+  }
+  .slick-current .slider-subtitle {
+    padding: 10px 0 10px 0;
+  }
+  .slider-subtitle {
+    padding: 10px 0 10px 0;
+  }
+  .slick-current .slider-title {
+    padding: 10px 0 20px 0;
+  }
+  .slider-title {
+    padding: 10px 0 20px 0;
+    text-align: center;
+  }
+  .container-carousel {
+    padding: 20px 0 0;
+  }
+  .car-texts-wrapper.container {
+    padding: 0 20px 20px;
+  }
+  .container-box {
+    padding: 60px 50px 0;
+    height: 300px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .slick-current .slider-subtitle {
+    text-align: center;
+  }
+  .slider-subtitle {
+    text-align: center;
+  }
+}

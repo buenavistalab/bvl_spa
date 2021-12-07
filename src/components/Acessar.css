@@ -1,0 +1,73 @@
+.Acessar {
+  width: 100%;
+  height: auto;
+  padding: 50px 0 0;
+}
+.Acessar > .container {
+  padding: 0 70px 50px;
+}
+.acessar-wrapper {
+  background: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  height: auto;
+  letter-spacing: -0.9px;
+}
+.acessar-wrapper-text {
+  width: 100%;
+  height: auto;
+}
+.acessar-wrapper-text p {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 70px 0 70px 80px;
+  line-height: 25px;
+}
+.acessar-wrapper-btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.acessar-wrapper-btn a {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Decima Mono";
+  padding: 14px 40px;
+  background: #000;
+  margin: 20px 0;
+  transition-property: background;
+  transition-duration: 1s;
+}
+.acessar-wrapper-btn a:hover {
+  background: var(--light-blue);
+  color: var(--blue);
+  transition: 1s;
+}
+@media (max-width: 768px) {
+  .acessar-wrapper {
+    flex-flow: column;
+  }
+  .acessar-wrapper-text p {
+    padding: 50px 20px;
+  }
+  .acessar-wrapper {
+    padding: 50px 0;
+  }
+  .Acessar > .container {
+    padding: 0 0 50px;
+  }
+}
+@media (max-width: 576px) {
+  .Acessar > .container {
+    padding: 0 20px 50px;
+  }
+  .acessar-wrapper-text p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,94 @@
+.VaiAprender {
+  background: var(--light-blue);
+  padding: 0 0;
+}
+.VaiAprender > .container {
+  padding: 0 70px;
+}
+.VaiAprender .blue-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  top: -10px;
+}
+.VaiAprender .red-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vaiaprender-wrapper {
+  background: #fff;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 100px;
+  width: 100%;
+  height: auto;
+}
+.vai-title-wrapper {
+  width: 100%;
+  height: auto;
+}
+.vai-title-wrapper h2 {
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 0 0 50px;
+}
+.vai-title-wrapper .red-line:nth-of-type(2) {
+  margin: 0 0 0 100px;
+}
+.vai-texts-wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: -40px;
+}
+.vai-texts-wrapper li {
+  font-size: 14px;
+  color: #000;
+  font-family: "Open Sans";
+  line-height: 26px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.vai-texts-wrapper li p {
+  font-size: 14px;
+  color: var(--red);
+  font-family: "Decima Mono Bold";
+}
+.vai-number {
+  width: 50px;
+  height: auto;
+}
+.vai-text {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .vaiaprender-wrapper {
+    flex-flow: column;
+    padding: 50px;
+  }
+  .vai-texts-wrapper {
+    padding: 20px 0 0;
+    position: unset;
+  }
+  .VaiAprender .container {
+    padding: 0 0;
+  }
+  .vai-number {
+    margin: 0 3px 0 0;
+  }
+}
+@media (max-width: 576px) {
+  .vai-number {
+    margin: 0 0 0 0;
+  }
+}

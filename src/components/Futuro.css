@@ -1,0 +1,113 @@
+.Futuro {
+  width: 100%;
+  height: auto;
+  background: var(--light-blue);
+  padding: 0 0 50px;
+}
+.Futuro .blue-line {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -1px;
+}
+.Futuro .red-line {
+  padding: 30px 0 0;
+}
+.futuro-wrapper h2 {
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--blue);
+  font-family: "Decima Mono Bold";
+  padding: 150px 0 50px;
+}
+.futuro-row { 
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row;
+}
+.futuro-row-text { 
+  font-size: 14px;
+  font-family: 'Open Sans';
+  color: var(--dark-gray);
+  width: 380px;
+  margin: 0 20px 0 200px;
+  height: auto;
+  line-height: 24px;
+}
+.futuro-row-black-box-wrapper {
+  width: 400px;
+  height: auto;
+  padding: 0 0 0 20px;
+}
+.futuro-row-black-box {
+  background: var(--black);
+  padding: 40px;
+  width: 100%;
+  height: auto;
+}
+.futuro-row-black-box:hover p {
+  color: #212222;
+}
+.futuro-row-black-box:hover {
+  background: var(--red);
+}
+.futuro-row-black-box p {
+  color: #fff;
+  font-family: 'Decima Mono';
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (max-width: 992px) {
+  .futuro-wrapper h2 {
+    padding: 400px 0 50px;
+  }
+}
+@media (max-width: 892px) {
+  .futuro-wrapper h2 {
+    padding: 450px 0 50px;
+  }
+}
+@media (max-width: 768px) {
+  .futuro-wrapper h2 {
+    padding: 750px 0 50px;
+  }
+  .futuro-row-text p { 
+    padding: 0 0 50px 0;
+  }
+  .futuro-row { 
+    flex-flow: column;
+  }
+  .futuro-row-text { 
+    padding: 0 0;
+  }
+  .futuro-row-black-box {
+    margin-top: 50px;
+  }
+  .futuro-row-text { 
+    width: 100%;
+    margin: 0 0;
+  }
+  .futuro-row-black-box-wrapper {
+    padding: 0 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .futuro-row-text { 
+    padding: 0 0 0 0;
+  }
+  .futuro-wrapper h2 {
+    padding: 400px 0 50px;
+  }
+  .Futuro .red-line {
+    padding: 0 0;
+  }
+}
+@media (max-width: 500px) {
+  .futuro-wrapper h2 {
+    padding: 520px 0 50px;
+  }
+}
