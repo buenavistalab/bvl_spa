@@ -1,11 +1,11 @@
 .Carousel {
-  background: var(--light-blue);
+  background: var(--orange);
   padding: 50px 0;
 }
 .Carousel .texts h2 {
   font-size: 32px;
   line-height: 32px;
-  color: var(--blue);
+  color: var(--purple);
   font-family: "Decima Mono Bold";
   padding: 0 0 10px;
 }
@@ -111,11 +111,11 @@
   flex-flow: column;
 }
 .slick-current .container-box {
-  background: var(--blue);
+  background: var(--purple);
 }
 .container-box .cls-1{
   fill: none;
-  stroke: var(--red);
+  stroke: var(--dark-red);
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }

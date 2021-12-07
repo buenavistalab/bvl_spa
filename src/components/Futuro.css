@@ -1,7 +1,7 @@
 .Futuro {
   width: 100%;
   height: auto;
-  background: var(--light-blue);
+  background: var(--orange);
   padding: 0 0 50px;
 }
 .Futuro .blue-line {
@@ -18,7 +18,7 @@
 .futuro-wrapper h2 {
   font-size: 32px;
   line-height: 32px;
-  color: var(--blue);
+  color: var(--purple);
   font-family: "Decima Mono Bold";
   padding: 150px 0 50px;
 }
@@ -51,10 +51,10 @@
   color: #212222;
 }
 .futuro-row-black-box:hover {
-  background: var(--red);
+  background: var(--dark-red);
 }
 .futuro-row-black-box p {
-  color: #fff;
+  color: #f6ea8c;
   font-family: 'Decima Mono';
   font-size: 16px;
   line-height: 24px;

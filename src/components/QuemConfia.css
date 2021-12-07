@@ -1,7 +1,7 @@
 .QuemConfia {
   width: 100%;
   height: auto;
-  background: var(--light-blue);
+  background: var(--orange);
   padding: 50px 0;
 }
 .QuemConfia > .container {
@@ -19,19 +19,19 @@
 .QuemConfia h2 {
   font-size: 32px;
   line-height: 32px;
-  color: var(--blue);
+  color: var(--purple);
   font-family: "Decima Mono Bold";
   padding: 0 0 50px;
 }
 .autor {
   font-size: 14px;
-  color: #fff;
+  color: var(--orange);
   font-family: "Decima Mono";
   padding: 10px 0 20px;
 }
 .autor-subtitle {
   font-size: 12px;
-  color: #fff;
+  color: var(--orange);
   font-family: "Open Sans";
   font-weight: bolder;
   padding: 0 0 20px;
@@ -39,7 +39,7 @@
 }
 .autor-about {
   font-size: 12px;
-  color: #fff;
+  color: var(--orange);
   font-family: "Open Sans";
   line-height: 20px;
 }
@@ -53,7 +53,7 @@
   padding: 20px 50px;
   width: auto;
   height: 315px;
-  background: var(--red);
+  background: var(--yellow);
   display: flex;
   justify-content: center;
   align-items: flex-start;

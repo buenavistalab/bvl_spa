@@ -2,7 +2,7 @@ import React from 'react';
 import './Certificado.css';
 import RedLine from '../assets/vetores/linha-red.png';
 import WhiteLine from '../assets/vetores/linha-white.png';
-import Book from '../assets/images/certificado.png';
+import Book from '../assets/images/img_template5.jpg';
 
 function Certificado() {
   return (
@@ -29,20 +29,16 @@ function Certificado() {
               alt="linha branca"
             />
             <h2>
-            Certificação de uma das maiores escolas de negócios e economia criativa do Brasil:
-            <br/>
-            Centro Europeu 
-            <br/>
-            Microsoft School.
+              The wise man therefore always holds in these matters to this principle of selection: 
             </h2>
             <p className="certi-subtitle">
-              Escola pioneira no segmento de negócios
+              1914 translation by H. Rackham
               <br/>
-              + de 30 anos de mercado 
+              + Section 1.10.32
               <br/>
-              + de 50 cursos online e presenciais
+              + Section 1.10.33 of "de Finibus Bonorum et Malorum"
               <br/>
-              + de 25.000 alunos no Núcleo de Cursos Livres
+              + Section 1.10.34, written by Cicero in 45 BC
             </p>
             <img 
               className="red-line" 

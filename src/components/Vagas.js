@@ -9,24 +9,24 @@ function Vagas() {
         <div className="vagas-card-wrapper">
           <div className="vagas-card">
             <p className="vagas-card-title">
-              Customer Success Manager
+              Where can I get some?
             </p>
             <p className="vagas-card-subtitle">
-              De R$ 10.001.00 a R$ 15.000.00
+              De R$ 9.999,99 a R$ 99.999,99
               <br/>
               1 vaga: São Paulo - SP (1)
               <br/>
-              Publicada em 30/07
+              Publicada em 01/01
             </p>
             <p className="vagas-card-about">
-              Ser especialista em criar relacionamentos e entender as necessidades 
-              dos clientes, além de ser tecnicamente capaz de garantir que eles 
-              estejam usando o produtor com a máxima...
+              There are many variations of passages of Lorem Ipsum available, 
+              but the majority have suffered alteration in some form, by injected humour, 
+              or randomised words which don't look even slightly believable. 
               <br/>
               <br/>
             </p>
             <p className="vagas-card-about catho">
-              <strong>Fonte:</strong> Catho
+              <strong>Fonte:</strong> Lorem
             </p>
           </div>
           <img 
@@ -42,19 +42,13 @@ function Vagas() {
             className="blue-line"
           />
           <h2>
-            Mais de 500 vagas* 
-            <br/>
-            para Customer 
-            <br/>
-            Success oferecidas 
-            <br/>
-            em todo o Brasil. 
+            It is a long established fact that a reader will be distracted by
           </h2>
           <p className="vagas-salarios">
-            Com salários chegando até R$15.000,00!**
+            the readable content of a page
           </p>
           <p className="vagas-fontes">
-            Fontes: *LinkedIn e **Catho
+            when looking at its layout.
           </p>
         </div>
       </div>

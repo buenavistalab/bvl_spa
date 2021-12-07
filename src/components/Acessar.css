@@ -7,7 +7,7 @@
   padding: 0 70px 50px;
 }
 .acessar-wrapper {
-  background: var(--red);
+  background: var(--dark-red);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,8 +45,8 @@
   transition-duration: 1s;
 }
 .acessar-wrapper-btn a:hover {
-  background: var(--light-blue);
-  color: var(--blue);
+  background: var(--orange);
+  color: var(--purple);
   transition: 1s;
 }
 @media (max-width: 768px) {

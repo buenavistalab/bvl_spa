@@ -1,5 +1,5 @@
 .Valor {
-  background: var(--light-blue);
+  background: var(--orange);
   width: 100%;
   height: auto;
   padding: 50px 0;
@@ -19,7 +19,7 @@
   align-items: flex-start;
 }
 .valor-blue-box {
-  background: var(--blue);
+  background: var(--purple);
   width: 100%;
   height: auto;
   padding: 60px 20px;
@@ -73,7 +73,7 @@
 .investimento-wrapper h2 {
   font-size: 32px;
   line-height: 32px;
-  color: var(--blue);
+  color: var(--purple);
   font-family: "Decima Mono Bold";
   padding: 0 0 30px;
 }
@@ -89,14 +89,14 @@
   color: #fff;
   font-family: "Decima Mono";
   padding: 14px 40px;
-  background: var(--red);
+  background: var(--dark-red);
   margin: 30px 0;
   transition-property: background;
   transition-duration: 1s;
 }
 .investimento-btn:hover {
-  background: var(--blue);
-  color: var(--light-blue);
+  background: var(--purple);
+  color: var(--orange);
   transition: 1s;
 }
 .investimento-subtitle {
@@ -126,7 +126,7 @@
     flex-flow: column;
   }
   .valor-blue-box {
-    background: var(--blue);
+    background: var(--purple);
     width: 100%;
     height: auto;
     padding: 60px 20px;

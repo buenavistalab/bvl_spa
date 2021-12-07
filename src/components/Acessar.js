@@ -9,14 +9,13 @@ function Acessar() {
         <div className="acessar-wrapper">
           <div className="acessar-wrapper-text">
             <p>
-              O número de vagas para Customer Success é cada vez maior e as 
-              oportunidades de crescimento profissional também. Isso acontece 
-              porque, cada vez mais, as empresas estão focadas em clientes e crescer com eles.
+              On the other hand, we denounce with righteous indignation and dislike 
+              men who are so beguiled and demoralized by the charms of pleasure of the moment.
             </p>
           </div>
           <div className="acessar-wrapper-btn">
-            <a href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
-              Quero acessar agora
+            <a href="/">
+              Lorem Ipsum
             </a>
             <img 
               className="white-line" 

@@ -12,13 +12,13 @@
 }
 .hero-wrapper::before {
   content: "";
-  background: var(--blue);
+  background: var(--purple);
   position: absolute;
   height: 720px;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .hero-text {
   position: relative;
@@ -53,13 +53,13 @@
   color: #fff;
   font-family: "Decima Mono";
   padding: 14px 40px;
-  background: var(--red);
+  background: var(--dark-red);
   transition-property: background;
   transition-duration: 1s;
 }
 .hero-text a:hover {
-  background: var(--light-blue);
-  color: var(--blue);
+  background: var(--orange);
+  color: var(--purple);
   transition: 1s;
 }
 .hero-grid {
@@ -71,7 +71,7 @@
   row-gap: 30px;
 }
 .hero-grid-item {
-  background: var(--red);
+  background: var(--dark-red);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,6 +86,11 @@
 .hero-grid-item img {
   width: auto;
   height: 50px;
+}
+.hero-grid-item:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.2);
+  transform: translate3D(0, -10px, 0);
+  opacity: 0.7;
 }
 .hero-grid-item p {
   text-align: center;

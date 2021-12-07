@@ -1,7 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import ImgHeader from '../assets/images/img-header.png';
-// import LogosPatrocinadores from '../assets/images/logos-hero.png';
+import ImgHeader from '../assets/images/img_template2.jpg';
 import Relogio from '../assets/vetores/relogio.png';
 import Chapeu from '../assets/vetores/chapeu.png';
 import Calendario from '../assets/vetores/calendario.png';
@@ -31,47 +30,24 @@ function Hero() {
         }}  
       >
         <div className="container hero-text">
-          {/* <img src={LogosPatrocinadores} alt="logos dos patrocinadores"/> */}
           <h1>
-            Manual do 
-            <br/>
-            Customer Success
-            <br/>
-            com Hiram Damin.
+            What is Lorem Ipsum?
           </h1>
-          {/* <p className="hero-subtitle">por Hiram Damin</p> */}
           <p className="display-none-500-min">
-            O curso online 
-            <br/>
-            inspirado no livro 
-            <br/>
-            "Customer Success: 
-            <br/>
-            o sucesso das empresas 
-            <br/>
-            focadas em clientes" 
-            <br/>
-            por Hiram Damin.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           </p>
           <p className="display-none display-block-500-min display-none-576-min">
-            O curso online inspirado no livro 
-            <br/>
-            "Customer Success: o sucesso das empresas 
-            <br/>
-            focadas em clientes" por Hiram Damin.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
           </p>
           <p className="display-none display-block-576-min">
-            O curso online inspirado no livro 
-            <br/>
-            "Customer Success: o sucesso das 
-            <br/>
-            empresas focadas em clientes" 
-            <br/>
-            por Hiram Damin.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
           <div className="btn-cta">
-            <a href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
-              Quero acessar agora
+            <a href="/">
+              Lorem Ipsum
             </a>
           </div>
         </div>
@@ -79,11 +55,7 @@ function Hero() {
           <div className="hero-grid-item">
             <img src={Relogio} alt="vetor relogio"/>
             <p>
-              5h30 de 
-              conteúdo
-              100%
-              <br/>
-              on-line
+              1914 translation by H. Rackham
             </p>
           </div>
           <button
@@ -94,14 +66,14 @@ function Hero() {
             <div className="hero-grid-item">
               <img src={Chapeu} alt="vetor chapeu"/>
               <p>
-              Certificado do Centro Europeu
+                Section 1.10.32 of "de Finibus Bonorum et Malorum".
               </p>
             </div>
           </button>
           <div className="hero-grid-item">
             <img src={Calendario} alt="vetor calendario"/>
             <p>
-            Bônus: Material para Projetos
+              Written by Cicero in 45 BC.
             </p>
           </div>
           <button
@@ -112,7 +84,7 @@ function Hero() {
             <div className="hero-grid-item">
               <img src={Livro} alt="vetor livro"/>
               <p>
-              Bônus: Livro do Autor na sua Casa
+                Where can I get some?
               </p>
             </div>
           </button>
@@ -124,7 +96,7 @@ function Hero() {
             <div className="hero-grid-item">
                 <img src={Cofre} alt="vetor cofre porco"/>
                 <p>
-                De <span>R$ 1.199,00</span> por apenas R$ 599,00  em até 6x R$ 99,83
+                  Lorem <span>R$ 999,99</span> Lorem Ipsum R$ 99,99 Ipsum 9x R$ 99,99
                 </p>
             </div>
           </button>

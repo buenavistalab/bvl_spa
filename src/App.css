@@ -1,8 +1,9 @@
 :root {
-  --red: #ea234e;
-  --blue: #1e3f77;
-  --light-blue: #d8ecf9;
+  --dark-red: #c03546;
+  --purple: #492540;
+  --orange: #f26d5b;
   --black: #212222;
+  --yellow: #f6ea8c;
   --gray: #7C8398;
   --dark-gray: #505150;
   --black: #212222;
@@ -30,11 +31,11 @@ body {
   width: 0.5rem;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--red);
+  background-color: var(--yellow);
 }
 ::selection {
-  background-color: var(--red);
-  color: #EDF5FC;
+  background-color: var(--yellow);
+  color: var(--orange);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

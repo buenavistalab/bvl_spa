@@ -1,5 +1,5 @@
 .VaiAprender {
-  background: var(--light-blue);
+  background: var(--orange);
   padding: 0 0;
 }
 .VaiAprender > .container {
@@ -19,7 +19,7 @@
   align-items: center;
 }
 .vaiaprender-wrapper {
-  background: #fff;
+  background: var(--yellow);
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -35,7 +35,7 @@
 .vai-title-wrapper h2 {
   font-size: 32px;
   line-height: 32px;
-  color: var(--blue);
+  color: var(--purple);
   font-family: "Decima Mono Bold";
   padding: 0 0 50px;
 }
@@ -60,7 +60,7 @@
 }
 .vai-texts-wrapper li p {
   font-size: 14px;
-  color: var(--red);
+  color: var(--dark-red);
   font-family: "Decima Mono Bold";
 }
 .vai-number {

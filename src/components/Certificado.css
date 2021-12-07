@@ -1,5 +1,5 @@
 .Certificado {
-  background: var(--blue);
+  background: var(--purple);
   width: 100%;
   height: auto;
   padding: 50px 0;
@@ -46,7 +46,7 @@
 }
 .book {
   width: auto;
-  height: 400px;
+  height: 320px;
   position: relative;
   z-index: 9;
   left: -120px;
@@ -56,7 +56,7 @@
   content: '';
   height: 57%;
   width: 30%;
-  background: var(--red);
+  background: var(--dark-red);
   z-index: 1;
   position: absolute;
   top: 140px;
@@ -99,7 +99,7 @@
     width: 200%;
     height: auto;
     position: unset;
-    background: var(--red);
+    background: var(--dark-red);
     padding: 10px;
     marker: 0 auto;
   }

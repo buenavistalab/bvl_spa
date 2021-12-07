@@ -15,15 +15,7 @@ function BolaDaVez() {
               alt="linha vermelha animada"
             />
             <h2 className="display-none-500">
-            Porque 
-            <br/>
-            Customer 
-            <br/>
-            Success 
-            <br/>
-            é a bola 
-            <br/>
-            da vez?
+              Where does it come from?
             </h2>
             <h2 className="display-none display-block-500">
             Porque Customer 
@@ -36,15 +28,13 @@ function BolaDaVez() {
           </div>
           <div className="blue-box">
             <p className="container">
-              Uma das posições estratégicas das empresas que estão no Top 10 do 
-              mercado e uma das mais buscadas pelas maiores empresas do Brasil. 
-              Não é à toa que as maiores empresas do país chegaram onde estão por 
-              estarem focadas em um objetivo: <strong>o sucesso dos seus clientes.</strong>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Excepteur sint occaecat cupidatat non proident, <strong>sunt in culpa qui officia deserunt mollit anim id est laborum.</strong>"
               <br/>
               <br/>
-              Diariamente surgem novas vagas no mercado na área de <strong>Customer Success</strong> e uma das maiores dificuldades dos recrutadores é a mão de obra qualificada. 
-              Gente que entende da metodologia e sabe como aplicá-la no dia a dia. 
-              É uma profissão que hoje vale ouro no mercado!
+              Duis aute irure dolor in reprehenderit in voluptate velit esse <strong>cillum dolore eu fugiat nulla pariatur.</strong> 
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .Idealizador {
-  background: var(--blue);
+  background: var(--purple);
   padding: 50px 0;
 }
 .idealizador-wrapper {
@@ -65,14 +65,14 @@
 }
 .lugares-row img {
   width: auto;
-  height: 50px;
+  height: 80px;
 }
 .csweek {
   padding-left: 10px;
 }
 .hiram-photo {
   width: auto;
-  height: 350px;
+  height: 500px;
 }
 .ide-livro {
   width: 100%;
@@ -127,7 +127,7 @@
   .lugares-row {
     row-gap: 20px;
     column-gap: 0;
-    width: 320px;
+    width: 100%;
   }
   .idealizador-item {
     padding: 0 0 100px;

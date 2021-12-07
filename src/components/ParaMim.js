@@ -19,20 +19,16 @@ function ParaMim() {
               alt="linha vermelha"
             />
             <h2>
-              Como saber se o 
-              <br/>
-              curso Manual do 
-              <br/>
-              Customer Success 
-              <br/>
-              é para mim?
+              Why do we use it?
+              <br />
+              Where can I get some?
             </h2>
             <p>
-              Esse é um curso de base e estratégia em Customer Success. 
-              Hiram Damin faz um percurso por todos os pontos, desde a mentalidade 
-              de CS até a atuação em dashboards dentro da sua empresa. Não importa 
-              seu nicho de mercado, se você busca uma vaga no setor ou é da área de 
-              Produto, Marketing, Vendas e CS, esse curso é feito para você.
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+              praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+              excepturi sint occaecati cupiditate non provident, similique sunt in 
+              culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+              Et harum quidem rerum facilis est et expedita distinctio.
             </p>
           </div>
           <div className="para-texts-wrapper">
@@ -40,34 +36,35 @@ function ParaMim() {
               <div className="texts">
                 <div className="num-txt-wrap">
                   <p className="text para-texts-title">
-                    Estes são os 4 principais tipos
-                    <br />
-                    de alunos em nossas turmas:
+                    Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
                   </p>
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/01</p>
                   <p className="text">
-                    <strong>Startups</strong> que buscam implementar a metodologia de 
-                  Sucesso do Cliente.
+                    <strong>Quis autem vel</strong> eum iure reprehenderit qui in 
+                    ea voluptate velit esse quam.
                   </p>
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/02</p>
                   <p className="text">
-                    <strong>Consultores</strong> e <strong>agências</strong> com foco em Customer Centric.
+                    <strong>Quis autem vel</strong> eum iure reprehenderit qui in 
+                    ea voluptate velit esse quam.
                   </p>
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/03</p>
                   <p className="text">
-                    Profissionais de <strong>Customer Success</strong> que querem aprimorar suas técnicas ou querem entrar no mercado de trabalho.
+                    <strong>Quis autem vel</strong> eum iure reprehenderit qui in 
+                    ea voluptate velit esse quam.
                   </p>
                 </div>
                 <div className="num-txt-wrap">
                   <p className="number">/04</p>
                   <p className="text padding-zero">
-                    Profissionais em geral que querem <strong>melhorar seu atendimento</strong> com o sucesso do cliente.
+                    <strong>Quis autem vel</strong> eum iure reprehenderit qui in 
+                    ea voluptate velit esse quam.
                   </p>
                 </div>
               </div>

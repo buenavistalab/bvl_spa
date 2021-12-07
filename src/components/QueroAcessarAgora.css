@@ -1,7 +1,7 @@
 .QueroAcessarAgora {
   height: auto;
   width: 100%;
-  background: var(--light-blue);
+  background: var(--orange);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,13 +14,13 @@
   color: #fff;
   font-family: "Decima Mono";
   padding: 14px 40px;
-  background: var(--red);
+  background: var(--dark-red);
   transition-property: background;
   transition-duration: 1s;
 }
 .QueroAcessarAgora a:hover {
-  background: var(--blue);
-  color: var(--light-blue);
+  background: var(--purple);
+  color: var(--orange);
   transition: 1s;
 }
 @media (max-width: 560px) {

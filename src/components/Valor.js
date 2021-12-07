@@ -17,55 +17,48 @@ function Valor() {
             <div className="valor-blue-box">
               <div className="valor-blue-box-up">
                 <p className="up-title">
-                Curso inspirado no livro Customer Success, 
-                <br/>
-                o Sucesso das Empresas Focadas em Clientes.
+                  The standard Lorem Ipsum passage, used since the 1500s
                 </p>
                 <p className="up-preco">
-                  À vista: de <span className="valor-riscado">R$ 1.199,00</span>
+                  À vista: de <span className="valor-riscado">R$ 9.999,99</span>
                   <br/>
-                  por R$ 599,00
+                  por R$ 999,99
                 </p>
                 <p className="up-preco em-ate">
-                  em até <span className="valor-destaque">6x R$ 99,83</span> sem juros
+                  em até <span className="valor-destaque">9x R$ 99,99</span> sem juros
                 </p>
               </div>
               <img className="vertical-line" src={VerticalLine} alt=""/>
               <div className="valor-blue-box-down">
                 <p className="down-title">
-                <strong>Bônus:</strong> ganhe o livro Customer Success, 
-                <br/>
-                o Sucesso das Empresas Focadas em Clientes.
-                </p>
-                <p className="down-subtitle">
-                Acesso à Comunidade Customer Success School.
+                <strong>Lorem:</strong> Section 1.10.32 of 
+                <br />
+                "de Finibus Bonorum et Malorum", 
+                <br />
+                written by Cicero in 45 BC
                 </p>
               </div>
             </div>
           </div>
           <div className="investimento-wrapper">
             <h2>
-              Qual o valor 
-              <br/>
-              do investimento?
+              1914 translation by H. Rackham
             </h2>
             <p className="investimento-title">
-            O valor real deste conteúdo vai bem além do sugerido. 
-            Ele contém mais de 300h de estudo e produção, e mais de 200 referências 
-            bibliográficas compiladas, em aulas direcionadas para o seu conhecimento 
-            e evolução profissional.
+              Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
+              voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
             </p>
-            <a className="investimento-btn" href="https://liveschool.centroeuropeu.com.br/cursos/manual-customer-success/">
-              Quero comprar agora
+            <a className="investimento-btn" href="/">
+              Lorem Ipsum
             </a>
             <p className="investimento-subtitle">
-              Satisfação Garantida
+              What is Lorem Ipsum?
               <br/>
-              Checkout Seguro
+              Where does it come from?
               <br/>
-              Plataforma Renomada
+              Why do we use it?
               <br/>
-              Privacidade Protegida
+              Where can I get some?
             </p>
           </div>
         </div>

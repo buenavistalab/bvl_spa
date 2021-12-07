@@ -13,6 +13,7 @@ import ParaMim from './components/ParaMim'
 import QuemConfia from './components/QuemConfia'
 import Certificado from './components/Certificado'
 import Valor from './components/Valor'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <QuemConfia />
       <Certificado />
       <Valor />
+      <Footer />
     </>
   );
 }

@@ -8,81 +8,41 @@ function Futuro() {
     <section className="Futuro">
       <div className="container futuro-wrapper">
         <h2 className="display-none-500-min">
-          Customer Success 
-          <br/>
-          não é a 
-          profissão 
-          <br/>
-          do futuro, é a 
-          <br/>
-          oportunidade agora!
+          Where does it come from?
         </h2>
         <h2 className="display-none display-block-500-min display-none-576-min">
-          Customer Success não
-          <br/>
-          é a profissão do futuro,
-          <br/>
-          é a oportunidade agora!
+          Where does it come from?
         </h2>
         <h2 className="display-none display-block-576-min">
-          Customer Success não
-          <br/>
-          é a profissão do 
-          <br/>
-          futuro, é a oportunidade agora!
+          Where does it come from?
         </h2>
         <div className="futuro-row">
           <div className="futuro-row-text">
             <p className="display-none-700-min">
-              <strong>Customer Success</strong> é o profissional que leva o 
-              atendimento ao cliente 
-              a um novo nível. Ele não 
-              apenas cumpre demandas, ele leva sucesso 
-              ao 
-              cliente através de uma metodologia inovadora.
-              <br/>
-              <br/>
-              Os profissionais que usarem a metodologia de 
-              Sucesso do Cliente 
-              não só serão destaque nas 
-              empresas como também estarão capacitados 
-              para 
-              as <strong>novas vagas de emprego</strong>, com salários 
-              melhores e perto das 
-              grandes companhias líderes 
-              de mercado que já aplicam essa metodologia 
-              e 
-              possuem a mentalidade certa para crescer junto com seus clientes. 
+              <strong>Contrary to popular belief</strong> Lorem Ipsum is not simply 
+              random text. It has roots in a piece of classical Latin literature from 45 BC, 
+              making it over 2000 years old. Richard McClintock, a Latin professor at 
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+              consectetur, from a Lorem Ipsum passage, and going through the 
+              cites of the word in classical literature, discovered the undoubtable source. 
+              Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de 
+              Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, 
+              written in 45 BC. This book is a treatise on the theory of ethics, 
+              very popular during the Renaissance. The first line of Lorem Ipsum, 
+              <strong> "Lorem ipsum dolor sit amet.."</strong>, comes from a line in section 1.10.32.
             </p>
             <p className="display-none display-block-700-min">
-              <strong>Customer Success</strong> é o profissional que leva o 
-              <br/>
-              atendimento ao cliente 
-              a um novo nível. Ele não 
-              <br/>
-              apenas cumpre demandas, ele leva sucesso 
-              ao 
-              <br/>
-              cliente através de uma metodologia inovadora.
-              <br/>
-              <br/>
-              Os profissionais que usarem a metodologia de 
-              <br/>
-              Sucesso do Cliente 
-              não só serão destaque nas 
-              <br/>
-              empresas como também estarão capacitados 
-              para 
-              <br/>
-              as <strong>novas vagas de emprego</strong>, com salários 
-              <br/>
-              melhores e perto das 
-              grandes companhias líderes 
-              <br/>
-              de mercado que já aplicam essa metodologia 
-              e 
-              <br/>
-              possuem a mentalidade certa para crescer junto com seus clientes. 
+              <strong>Contrary to popular belief</strong> Lorem Ipsum is not simply 
+              random text. It has roots in a piece of classical Latin literature from 45 BC, 
+              making it over 2000 years old. Richard McClintock, a Latin professor at 
+              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+              consectetur, from a Lorem Ipsum passage, and going through the 
+              cites of the word in classical literature, discovered the undoubtable source. 
+              Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de 
+              Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, 
+              written in 45 BC. This book is a treatise on the theory of ethics, 
+              very popular during the Renaissance. The first line of Lorem Ipsum, 
+              <strong> "Lorem ipsum dolor sit amet.."</strong>, comes from a line in section 1.10.32.
             </p>
             <img 
               className="red-line" 
@@ -93,9 +53,11 @@ function Futuro() {
           <div className="futuro-row-black-box-wrapper">
             <div className="futuro-row-black-box">
               <p>
-                Seja parte do <strong>grupo seleto de profissionais qualificados</strong> que vão 
-                se destacar entregando sucesso ao cliente com uma metodologia 
-                aplicada e comprovada em milhares de empresa no Brasil e no mundo.
+                The standard chunk of <strong>Lorem Ipsum</strong> used since the 1500s is reproduced 
+                below for those interested. Sections 1.10.32 and 1.10.33 from "de 
+                Finibus Bonorum et Malorum" by Cicero are also reproduced in their 
+                exact original form, accompanied by English versions from the 1914 
+                translation by H. Rackham.
               </p>
             </div>
             <img 

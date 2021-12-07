@@ -8,56 +8,40 @@ function QuemConfia() {
     <section className="QuemConfia">
       <div className="container">
         <h2 className="display-none-500-min">
-          Veja quem já 
-          <br/>
-          deu um upgrade 
-          <br/>
-          na sua carreira 
-          <br/>
-          com o curso 
-          <br/>
-          de CS de 
-          <br/>
-          Hiram Damin
+          Section 1.10.32 of 
+          <br />
+          "de Finibus Bonorum et Malorum", 
+          <br />
+          written by Cicero in 45 BC
         </h2>
         <h2 className="display-none display-block-500-min display-none-576-min">
-          Veja quem já deu 
-          <br/>
-          um 
-          
-          upgrade 
-          
-          na sua 
-          <br/>
-          carreira com o curso 
-          <br/>
-          de CS de Hiram Damin
+          Section 1.10.32 of 
+          <br />
+          "de Finibus Bonorum et Malorum", 
+          <br />
+          written by Cicero in 45 BC
         </h2>
         <h2 className="display-none display-block-576-min">
-          Veja quem já deu um 
-          <br/>
-          upgrade na sua 
-          <br/>
-          carreira com o curso 
-          <br/>
-          de CS de Hiram Damin
+          Section 1.10.32 of 
+          <br />
+          "de Finibus Bonorum et Malorum", 
+          <br />
+          written by Cicero in 45 BC
         </h2>
         <div className="quem-confia-wrapper">
           <div className="red-box">
             <img src={Ok} alt="vetor like"/>
             <p className="autor">
-              EDUARDO PIMENTEL
+              LOREM IPSUM
               <br/>
-              Gerente de Customer Success - Agoge
+              Neque porro quisquam est qui dolorem
             </p>
             <p className="autor-about">
-              "O Manual do Customer Success tem me ajuda muito a melhorar os 
-              processos da minha empresa. O Hiram ao longo do curso traz muitas 
-              dicas que tornam os processos muito mais leve na aplicação do 
-              Sucesso do Cliente dentro da empresa. O  feedback eu vejo com os 
-              clientes e também com os funcionários que acham muito melhor 
-              trabalhar em uma empresa que tem processo, ferramentas e metas 
-              estabelecidas."
+              "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 
+              consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+              incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+              nisi ut aliquid ex ea commodi consequatur?"
             </p>
           </div>
           <div className="youtube-wrapper">
@@ -65,7 +49,7 @@ function QuemConfia() {
               title="youtube"
               width="560" 
               height="315" 
-              src="https://www.youtube.com/embed/ePlpcjzbZl4" 
+              src="https://www.youtube.com/embed/DY5RYp4sxYc?controls=0" 
               frameBorder="0" 
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen

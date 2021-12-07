@@ -1,18 +1,12 @@
 .Logos {
-  background: #c32026;
+  background: #f6ea8c;
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Logos img {
-  width: 40%;
-  height: auto;
-  padding: 5px 0;
-}
-@media (max-width: 560px) {
-  .Logos img {
-    width: 60%;
-  }
+.Logos h1 {
+  font-family: "Decima Mono Bold";
+  padding: 20px 0;
 }

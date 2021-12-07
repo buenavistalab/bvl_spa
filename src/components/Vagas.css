@@ -26,7 +26,7 @@
   height: auto;
 }
 .vagas-card {
-  background: #fff;
+  background: var(--yellow);
   -webkit-box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
   -moz-box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
   box-shadow: 3px 7px 10px -1px rgba(0,0,0,0.27);
@@ -43,7 +43,7 @@
 }
 .vagas-card-subtitle {
   font-size: 12px;
-  color: var(--blue);
+  color: var(--purple);
   font-family: "Open Sans";
   font-weight: bolder;
   padding: 0 0 10px;
@@ -72,7 +72,7 @@
 }
 .vagas-text-wrapper h2 {
   font-size: 32px;
-  color: var(--blue);
+  color: var(--purple);
   font-family: "Decima Mono Bold";
   padding: 30px 0 0;
 }
@@ -92,7 +92,7 @@
   color: #fff;
   font-family: "Open Sans";
   padding: 10px 20px;
-  background: var(--red);
+  background: var(--dark-red);
   margin: 10px 0;
   cursor: initial;
   border-radius: 3px;
